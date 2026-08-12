@@ -2,7 +2,6 @@
   "name": "chai-backend",
   "version": "1.0.0",
   "description": "a backend project",
-  "types": "modules",
   "keywords": [
     "javascript",
     "backend",
@@ -10,7 +9,7 @@
   ],
   "license": "ISC",
   "author": "shubham sinha",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -18,5 +17,10 @@
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prettier": "^3.9.6"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2"
   }
 }
