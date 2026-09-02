@@ -1,6 +1,5 @@
 import multer from "multer";
-
-const crypto = require('crypto')
+// import crypto from "crypto"; // crypto is used to generate unique file names
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
